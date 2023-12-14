@@ -42,7 +42,7 @@
                 },
  
                 arrows: {
-                    enable: true,
+                    enable: false,
                     style: 'gyges',
                     hide_onmobile: true,
                     hide_onleave: true,
