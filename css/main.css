@@ -1108,7 +1108,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 /*---------------------------------------------*/
 #rev_slider_1 .layer2 {
   font-family: Lato-Black;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 1px;
 }
 
