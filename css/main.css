@@ -309,6 +309,10 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 /*==================================================================
 [ Menu ]*/
 
+/* .active-page {
+  text-decoration: underline;
+} */
+
 .wrap-menu-desktop {
   position: fixed;
   z-index: 1100;
@@ -3764,6 +3768,10 @@ input.num-product::-webkit-inner-spin-button {
   width: 60px;
 }
 
+.size-features-30 {
+  width: 45px;
+}
+
 .size-w-36 {
   width: calc(100% - 90px);
 }
@@ -4404,7 +4412,7 @@ input.num-product::-webkit-inner-spin-button {
   top: 0;
   left: 0;
   background-color: #000;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 
