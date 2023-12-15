@@ -2457,9 +2457,23 @@ input.num-product::-webkit-inner-spin-button {
 
 /*//////////////////////////////////////////////////////////////////
 [ Video ]*/
+.videos {
+  margin-top: 75px;
+}
+.videos h4 {
+  padding: 10px 0;
+}
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;;
+  gap: 40px;
+}
+.videos-container h5 {
+  padding: 10px 10px;
+}
 .wrap-video {
   position: relative;
-  width: 100%;
+  max-width: 45%;
 }
 .wrap-video img {width: 100%;}
 
@@ -3339,7 +3353,7 @@ input.num-product::-webkit-inner-spin-button {
 
 /*---------------------------------------------*/
 .txt-l-401 {
-  font-family: Courgette-Regular;
+  font-family: Lato-Bold;
   font-size: 42px;
   line-height: 1.2;
 }
