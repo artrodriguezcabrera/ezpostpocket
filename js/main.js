@@ -389,7 +389,18 @@
     /*==================================================================
     [ Video ]*/
     try {
-        $('.btn-play').on('click', function(ev) {
+        $('#play-btn1').on('click', function(ev) {
+            $('.wrap-iframe-video').children('iframe')[0].src += "rel=0&autoplay=1";
+
+            $('.wrap-iframe-video').addClass('show-video');
+            
+            $(this).fadeOut();
+            ev.preventDefault();
+        });
+    } catch(er) {console.log(er);}
+
+    try {
+        $('#play-btn2').on('click', function(ev) {
             $('.wrap-iframe-video').children('iframe')[0].src += "rel=0&autoplay=1";
 
             $('.wrap-iframe-video').addClass('show-video');
