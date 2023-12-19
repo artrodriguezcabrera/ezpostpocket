@@ -200,44 +200,51 @@
 		</div>
 	</section>
 	
+
 	<!-- Form Contact -->
 	<section class="bg0 p-t-10 p-b-30">
+		
+
 		<div class="container">
+			<script type="text/javascript">var contact=false;</script>
+
 			<div class="size-a-1 flex-col-c-m p-b-70">
 				<h3 class="txt-center txt-l-101 cl3 respon1">
 					Send Us A Message
 				</h3>
 			</div>
+			
+			<iframe name="hiddenContactConfirm" id="hiddenContactConfirm" style="display:none;" onload="if(contact){window.location='confirmation.html';}"></iframe>
 
-			<form id="contact-form" class="validate-form" method="post" action="includes/contact-form.php" name="contact">
+			<form class="validate-form" action="https://docs.google.com/forms/d/e/1FAIpQLScYHRj55ZuOk2zA2iibNONSTdhyBGy4LFf8KWKsfmxbl1CSEQ/formResponse" method="post" target="hiddenContactConfirm" onsubmit="contact=true;">
 				<div class="row">
 					<div class="col-sm-6 p-b-30">
-						<div class="validate-input" data-validate = "Name is required">
-							<input class="txt-s-101 cl3 plh1 size-a-46 bo-all-1 bocl15 focus1 p-rl-20" type="text" name="name" placeholder="Your Full Name *">
+						<div class="validate-input" data-validate="Name is required">
+							<input class="txt-s-101 cl3 plh1 size-a-46 bo-all-1 bocl15 focus1 p-rl-20" type="text" name="entry.1873952146" placeholder="Your Full Name *">
 						</div>
 					</div>
 
 					<div class="col-sm-6 p-b-30">
-						<div class="validate-input" data-validate = "Valid email is: ex@abc.xyz">
-							<input class="txt-s-101 cl3 plh1 size-a-46 bo-all-1 bocl15 focus1 p-rl-20" type="text" name="email" placeholder="Your Email *">
+						<div class="validate-input" data-validate="Valid email is: ex@abc.xyz">
+							<input class="txt-s-101 cl3 plh1 size-a-46 bo-all-1 bocl15 focus1 p-rl-20" type="text" name="entry.1729986083" placeholder="Your Email *">
 						</div>
 					</div>
 
 					<div class="col-sm-6 p-b-30">
 						<div>
-							<input class="txt-s-101 cl3 plh1 size-a-46 bo-all-1 bocl15 focus1 p-rl-20" type="text" name="address" placeholder="Your Address">
+							<input class="txt-s-101 cl3 plh1 size-a-46 bo-all-1 bocl15 focus1 p-rl-20" type="text" name="entry.139091753" placeholder="Your Address">
 						</div>
 					</div>
 
 					<div class="col-sm-6 p-b-30">
-						<div class="validate-input" data-validate = "Phone is required">
-							<input class="txt-s-101 cl3 plh1 size-a-46 bo-all-1 bocl15 focus1 p-rl-20" type="text" name="phone" placeholder="Your Phone *">
+						<div class="validate-input" data-validate="Phone is required">
+							<input class="txt-s-101 cl3 plh1 size-a-46 bo-all-1 bocl15 focus1 p-rl-20" type="text" name="entry.214662818" placeholder="Your Phone *">
 						</div>
 					</div>
 
 					<div class="col-12 p-b-30">
-						<div class="validate-input" data-validate = "Message is required">
-							<textarea class="txt-s-101 cl3 plh1 size-a-47 bo-all-1 bocl15 focus1 p-rl-20 p-tb-10" name="msg" placeholder="Your Message"></textarea>
+						<div class="validate-input" data-validate="Message is required">
+							<textarea class="txt-s-101 cl3 plh1 size-a-47 bo-all-1 bocl15 focus1 p-rl-20 p-tb-10" name="entry.674719600" placeholder="Your Message"></textarea>
 						</div>	
 					</div>
 				</div>
@@ -369,8 +376,8 @@
 <!--===============================================================================================-->
 	<script src="vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!-- <script src="vendor/daterangepicker/moment.min.js"></script> -->
+	<!-- <script src="vendor/daterangepicker/daterangepicker.js"></script> -->
 <!--===============================================================================================-->
 	<script src="vendor/slick/slick.min.js"></script>
 	<script src="js/slick-custom.js"></script>
@@ -387,8 +394,8 @@
 <!--===============================================================================================-->
 	<script src="vendor/noui/nouislider.min.js"></script>
 <!--===============================================================================================-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
-	<script src="js/map-custom.js"></script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script> -->
+	<!-- <script src="js/map-custom.js"></script> -->
 <!--===============================================================================================-->
 	<script src="js/contact.js"></script>
 <!--===============================================================================================-->
