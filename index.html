@@ -503,6 +503,13 @@
 		</div>
 	</section>
 
+	<!-- https://docs.google.com/forms/d/e/1FAIpQLSekln1Y5UdRSm4LUb_-Odpj-CERkI1LXonUd48ahUp3S_tSKg/formResponse
+			
+			
+	entry.1729986083=email@address.com
+
+ -->
+
 	<!-- Subscribe -->
 	<section class="sec-subscribe bg0 how3-parent">
 		<div class="container">
@@ -520,9 +527,12 @@
 						</div>
 					</div>
 
+					<script type="text/javascript">var submitted=false;</script>
+
 					<div class="col-md-7 p-tb-15">
-						<form class="flex-w flex-m h-full p-r-70 p-l-50 p-rl-15-md">
-							<input class="size-a-6 txt-s-106 cl6 plh0 p-rl-30 w-full-sm" type="text" name="email" placeholder="Your email address">
+						<iframe name="hiddenNewsletterConfirm" id="hiddenNewsletterConfirm" style="display:none;" onload="if(submitted){window.location='newsletter-confirmation.html';}"></iframe>
+						<form class="flex-w flex-m h-full p-r-70 p-l-50 p-rl-15-md" action="https://docs.google.com/forms/d/e/1FAIpQLSekln1Y5UdRSm4LUb_-Odpj-CERkI1LXonUd48ahUp3S_tSKg/formResponse" method="post" target="hiddenNewsletterConfirm" onsubmit="submitted=true">
+							<input class="size-a-6 txt-s-106 cl6 plh0 p-rl-30 w-full-sm" type="text" name="entry.1729986083" placeholder="Your email address">
 							<button class="bg3 size-a-5 txt-s-107 cl0 p-rl-15 trans-04 hov-btn3 mt-4 mt-sm-0">
 								Subscribe
 							</button>
